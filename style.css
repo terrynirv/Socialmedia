@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  body
+  {
+    background-color: rgb(255, 148, 255);
+  }
+
+ 
+  .header
+   {
+    width: 850px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+  
+  }
+  
+ 
+  .header-bg 
+  {
+      height: 225px;
+    background-color: rgb(199, 11, 199);
+    border: 2px groove darkgray;
+    border-radius: 5%;
+  }
+  
+ 
+  .profile-heading 
+  {
+    height: 175px;
+    background-color: rgb(226, 149, 236);
+    border: 2px groove darkgray;
+    border-radius: 5%;
+  }
+  
+ 
+  .profile-photo
+   {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnSDDppxL6DqyQtxbhfOgHbKsuawPkIdhis3L2Gf0FXGdLS55W&usqp=CAU');
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 15px rgb(94, 8, 94) groove;
+    position: relative;
+    top: 100px;
+    left: 140px;
+  }
+  
+  .profile-info
+   {
+    position: relative;
+    top: 75px;
+    height: 90px;
+    width: 60%;
+    border: 2px solid darkgray;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 10%;
+  }
+  
+
+  a
+  {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .profile-info h1 
+  {
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  
+  .float-right-box 
+  {
+    width: 50%;
+    float: right;
+  }
+  
+  
+  .profile-buttons 
+  {
+    height: 40px;
+    position: relative;
+    top: -75px;
+    left: 75px;
+  }
+  
+  .profile-buttons button {
+    font-size: 22px;
+    background:rgb(199, 11, 199);
+    color: white;
+  }
+  
+  .work-school-info {
+    position: relative;
+    top: -75px;
+    left: 75px;
+    
+  }
+  
+  .work-school-info li {
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    list-style: none;
+  }
+
+ 
+  .columns
+  {
+    position: relative;
+    top:  50px;
+    padding: 10px;
+    clear: left;
+    margin: 20px 1%;
+ }
+ 
+ 
+ section
+ {
+   float: left;
+   width: 328px;
+   height: 400px;
+   border: 2px groove darkgray ;
+   background-color: rgb(199, 11, 199);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10%;
+
+ }
+ 
+ 
+ aside
+ {
+   float: left;
+   width: 512px;
+   height: 400px;
+   border: 2px groove darkgray;
+   background-color: rgb(199, 11, 199);
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10%;
+
+ }
